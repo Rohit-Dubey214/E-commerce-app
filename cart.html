@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cart Page</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link href="cart.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="card mb-3">
+        <div class="card-header">
+          Items in Cart
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://i.postimg.cc/8CDh69mf/82acb809-7990-41f9-84cb-fe6de1a4158f1665743747810-Nap-Chief-Boys-Green-Printed-Joggers-9411665743747.jpg" alt="Product Image" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+              <strong><p>Track Pants</p></strong>
+              <p>$56</p><br>
+              <button class="btn btn-warning"><i class="fas fa-trash-alt"></i></button>
+            </div>
+            <div class="col-md-4">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <button class="btn btn-warning" type="button">-</button>
+                </div>
+                <input type="text" class="form-control text-center" value="1">
+                <div class="input-group-append">
+                  <button class="btn btn-warning" type="button">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Repeat this structure for each product in the cart -->
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card">
+        <div class="card-header">
+          Summary
+        </div>
+        <div class="cost">
+          <p>Cost:$56</p>
+          <p>Shipping: $5</p>
+          <hr>
+          <strong><p>Total: $61</p></strong>
+          <button class="btn btn-warning btn-block mt-3">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

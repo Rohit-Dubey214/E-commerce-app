@@ -1,0 +1,35 @@
+/*For styling the contact Us Page */
+.center-text{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+    color: black;
+    font-style: inherit;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+}
+  
+  .img-fluid {
+    width: auto;
+    height: auto;
+  }
+
+  .form-group button {
+    background-color: #c5d511;
+    color:black;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}

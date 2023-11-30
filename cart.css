@@ -1,0 +1,29 @@
+/* Style for the card header */
+.card-header {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Style for the delete button */
+.btn-danger {
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+}
+
+/* Style for the quantity input */
+.input-group {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+/* Style for the summary card */
+.col-lg-4 .card {
+  margin-top: 15px;
+}
+
+/* Style for the checkout button */
+.btn-warning{
+  background-color: #c5d511; 
+  border-color: #c5d511;
+}
